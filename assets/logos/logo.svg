@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="AS Logo">
+  <polygon points="24,6 42,16 42,32 24,42 6,32 6,16" fill="#0A0A0A" stroke="#00d4ff" stroke-width="2"/>
+  <!-- Circuit lines -->
+  <line x1="24" y1="6" x2="24" y2="16" stroke="#00d4ff" stroke-width="1.5"/>
+  <line x1="24" y1="42" x2="24" y2="32" stroke="#00d4ff" stroke-width="1.5"/>
+  <line x1="6" y1="24" x2="16" y2="24" stroke="#00d4ff" stroke-width="1.5"/>
+  <line x1="42" y1="24" x2="32" y2="24" stroke="#00d4ff" stroke-width="1.5"/>
+  <!-- Circuit dots -->
+  <circle cx="24" cy="6" r="1.5" fill="#00d4ff"/>
+  <circle cx="24" cy="42" r="1.5" fill="#00d4ff"/>
+  <circle cx="6" cy="24" r="1.5" fill="#00d4ff"/>
+  <circle cx="42" cy="24" r="1.5" fill="#00d4ff"/>
+  <!-- Monogram -->
+  <text x="13" y="30" font-family="'Montserrat', 'Inter', Arial, sans-serif" font-size="13" font-weight="bold" fill="#00d4ff">&lt;AS/&gt;</text>
+</svg> 

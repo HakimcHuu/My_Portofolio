@@ -1,0 +1,1603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Abdulhakim S. - Full-Stack Developer & App Developer Portfolio
+    </title>
+    <meta
+      name="description"
+      content="Abdulhakim S. - Passionate Full-Stack Web Developer and Mobile App Developer specializing in React, Next.js, and React Native. View my portfolio and projects."
+    />
+    <meta
+      name="keywords"
+      content="Full-Stack Developer, Web Developer, App Developer, React, Next.js, React Native, JavaScript, HTML, CSS, Portfolio"
+    />
+    <meta name="author" content="Abdulhakim S." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-portfolio-url.com/" />
+    <meta
+      property="og:title"
+      content="Abdulhakim S. - Full-Stack Developer Portfolio"
+    />
+    <meta
+      property="og:description"
+      content="Passionate Full-Stack Web Developer and Mobile App Developer specializing in React, Next.js, and React Native."
+    />
+    <meta property="og:image" content="assets/misc/profile.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://your-portfolio-url.com/" />
+    <meta
+      property="twitter:title"
+      content="Abdulhakim S. - Full-Stack Developer Portfolio"
+    />
+    <meta
+      property="twitter:description"
+      content="Passionate Full-Stack Web Developer and Mobile App Developer specializing in React, Next.js, and React Native."
+    />
+    <meta property="twitter:image" content="assets/misc/profile.jpg" />
+
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/logos/logo.svg" />
+  </head>
+  <body>
+    <!-- Particle Background -->
+    <div id="particles-js" class="particles-background"></div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+      <div class="loading-content">
+        <div class="loading-logo">
+          <svg width="80" height="80" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="AS Logo">
+            <polygon points="24,6 42,16 42,32 24,42 6,32 6,16" fill="#0A0A0A" stroke="#00d4ff" stroke-width="2"/>
+            <line x1="24" y1="6" x2="24" y2="16" stroke="#00d4ff" stroke-width="1.5"/>
+            <line x1="24" y1="42" x2="24" y2="32" stroke="#00d4ff" stroke-width="1.5"/>
+            <line x1="6" y1="24" x2="16" y2="24" stroke="#00d4ff" stroke-width="1.5"/>
+            <line x1="42" y1="24" x2="32" y2="24" stroke="#00d4ff" stroke-width="1.5"/>
+            <circle cx="24" cy="6" r="1.5" fill="#00d4ff"/>
+            <circle cx="24" cy="42" r="1.5" fill="#00d4ff"/>
+            <circle cx="6" cy="24" r="1.5" fill="#00d4ff"/>
+            <circle cx="42" cy="24" r="1.5" fill="#00d4ff"/>
+            <text class="slow-monogram" x="13" y="30" font-family="'Montserrat', 'Inter', Arial, sans-serif" font-size="13" font-weight="bold" fill="#00d4ff">&lt;AS/&gt;</text>
+          </svg>
+        </div>
+        <div class="loading-spinner"></div>
+        <p>Loading Portfolio...</p>
+      </div>
+    </div>
+
+    <!-- Scroll Progress Indicator -->
+    <div id="scroll-progress" class="scroll-progress"></div>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <header class="header">
+      <div class="logo">
+        <!-- Abstract, circuit-inspired SVG logo -->
+        <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="AS Logo">
+          <polygon points="24,6 42,16 42,32 24,42 6,32 6,16" fill="#0A0A0A" stroke="#00d4ff" stroke-width="2"/>
+          <!-- Circuit lines -->
+          <line x1="24" y1="6" x2="24" y2="16" stroke="#00d4ff" stroke-width="1.5"/>
+          <line x1="24" y1="42" x2="24" y2="32" stroke="#00d4ff" stroke-width="1.5"/>
+          <line x1="6" y1="24" x2="16" y2="24" stroke="#00d4ff" stroke-width="1.5"/>
+          <line x1="42" y1="24" x2="32" y2="24" stroke="#00d4ff" stroke-width="1.5"/>
+          <!-- Circuit dots -->
+          <circle cx="24" cy="6" r="1.5" fill="#00d4ff"/>
+          <circle cx="24" cy="42" r="1.5" fill="#00d4ff"/>
+          <circle cx="6" cy="24" r="1.5" fill="#00d4ff"/>
+          <circle cx="42" cy="24" r="1.5" fill="#00d4ff"/>
+          <!-- Monogram -->
+          <text class="slow-monogram" x="13" y="30" font-family="'Montserrat', 'Inter', Arial, sans-serif" font-size="13" font-weight="bold" fill="#00d4ff">&lt;AS/&gt;</text>
+        </svg>
+      </div>
+      <nav class="nav">
+        <button id="nav-toggle" aria-label="Toggle navigation">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#resume">RESUME</a></li>
+          <li><a href="#about">ABOUT ME</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#timeline">TIMELINE</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <p class="greeting">Hi, welcome to my portfolio!</p>
+          <p class="subtitle vibe-text">I'm</p>
+          <h1 class="vibe-text typing-text">ABDULHAKIM S.</h1>
+          <p class="brand-tagline">Modern solutions. Real results.</p>
+          <p class="description">Full-Stack Developer & App Architect creating seamless digital products.</p>
+
+          <div class="hero-buttons">
+            <a href="#contact" class="cta-button">
+              <span>Get In Touch</span>
+              <div class="button-glow"></div>
+            </a>
+            <a href="#projects" class="cta-button secondary">
+              <span>View Portfolio</span>
+              <div class="button-glow"></div>
+            </a>
+          </div>
+
+          <!-- Added Scroll Indicator -->
+          <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow">
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-container">
+            <img src="assets/misc/profile.jpg" alt="Profile photo" />
+            <div class="image-glow"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="resume" class="resume">
+        <div class="resume-container">
+          <!-- Left Column -->
+          <div class="resume-left">
+            <div class="profile-section">
+              <div class="profile-image">
+                <img src="assets/misc/IMG_1780.JPG" alt="Profile photo" />
+              </div>
+              <h2>Abdulhakim S.</h2>
+              <span class="job-title"
+                >Full-Stack Developer and App Developer</span
+              >
+              <div class="personal-motto">
+                <i class="fas fa-quote-left"></i>
+                <p>
+                  "Turning ideas into digital reality with passion and
+                  precision"
+                </p>
+              </div>
+            </div>
+
+            <div class="quick-stats">
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <i class="fas fa-code-branch"></i>
+                </div>
+                <div class="stat-content">
+                  <span class="stat-number">5+</span>
+                  <span class="stat-label">Projects Completed</span>
+                </div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <i class="fas fa-clock"></i>
+                </div>
+                <div class="stat-content">
+                  <span class="stat-number">2+</span>
+                  <span class="stat-label">Years Experience</span>
+                </div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <i class="fas fa-users"></i>
+                </div>
+                <div class="stat-content">
+                  <span class="stat-number">25+</span>
+                  <span class="stat-label">Happy Clients</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <h4>Connect With Me</h4>
+              <div class="social-icons">
+                <a
+                  href="https://github.com/HakimcHuu"
+                  target="_blank"
+                  class="social-icon"
+                  title="GitHub"
+                >
+                  <i class="fab fa-github"></i>
+                  <span class="social-tooltip">GitHub</span>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/abdulhakim-sefa-846138248"
+                  target="_blank"
+                  class="social-icon"
+                  title="LinkedIn"
+                >
+                  <i class="fab fa-linkedin"></i>
+                  <span class="social-tooltip">LinkedIn</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="availability-section">
+              <h4>Current Status</h4>
+              <div class="availability-card">
+                <div class="availability-status">
+                  <span class="status-badge available">Available</span>
+                  <span class="response-time">Typically responds within minutes</span>
+                </div>
+                <div class="availability-details">
+                  <div class="detail-item">
+                    <i class="fas fa-calendar-check"></i>
+                    <span>Open to new opportunities</span>
+                  </div>
+                  <div class="detail-item">
+                    <i class="fas fa-globe"></i>
+                    <span>Open to remote, onsite, and hybrid roles</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Middle Column -->
+          <div class="resume-middle">
+            <div class="resume-label">Resume</div>
+            <div class="resume-section">
+              <div class="section-header">
+                <i class="fas fa-user"></i>
+                <h3>Professional Profile</h3>
+              </div>
+              <p>
+                A results-driven Full-Stack Developer and Mobile Application
+                Architect with expertise in modern web technologies and
+                cross-platform development. Demonstrated ability to architect
+                scalable solutions, implement industry best practices, and
+                deliver high-performance applications that consistently exceed
+                client expectations. Proficient in React, Next.js, and React
+                Native with a robust foundation in backend development using
+                Node.js and database management systems. Recognized for
+                exceptional problem-solving capabilities, rapid learning
+                aptitude, and unwavering commitment to continuous professional
+                development. Thrives in dynamic environments, consistently
+                delivering innovative solutions while maintaining the highest
+                standards of code quality and performance optimization.
+                Collaborative team leader with excellent communication skills
+                and a proven track record of successful project delivery across
+                diverse industries.
+              </p>
+            </div>
+
+            <div class="resume-section">
+              <div class="section-header">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>Education</h3>
+              </div>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <h4>Full-Stack Development Bootcamp</h4>
+                  <h4>Evangadi Bootcamp</h4>
+                  <span class="date">Dec 2024 - Jul 2025</span>
+                  <p>Comprehensive training in modern web development technologies, mastering React.js, Next.js, and full-stack development methodologies.</p>
+                </div>
+                <div class="timeline-item">
+                  <h4>Android Developer Fundamentals, Programming Fundamentals, Data Analysis Fundamentals</h4>
+                  <span class="date">21 Aug 2024</span>
+                </div>
+                <div class="timeline-item">
+                  <h4>Cisco International Certificate in Cybersecurity, Cisco IT Essentials</h4>
+                  <span class="date">29 Jun 2022, 2 Aug 2022</span>
+                </div>
+                <div class="timeline-item">
+                  <h4>BSC on Computer Engineering, Haramaya Institute of Technology</h4>
+                  <span class="date">10.2018 - 07.2023</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-section">
+              <div class="section-header">
+                <i class="fas fa-briefcase"></i>
+                <h3>Work Experience</h3>
+              </div>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <h4>Digital Lab Coordinator, Admas University</h4>
+                  <span class="date">05.2022 - Present</span>
+                  <h4>Digital Marketing</h4>
+                  <span class="date">05.2022 - Present</span>
+                </div>
+                <div class="timeline-item">
+                  <h4>Intern, Dashen Bank Head Office IT Room</h4>
+                  <span class="date">4 months</span>
+                  <p>Four months internship experience supporting IT operations and digital infrastructure.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column -->
+          <div class="resume-right">
+            <div class="resume-section">
+              <div class="section-header">
+                <i class="fas fa-language"></i>
+                <h3>Languages</h3>
+              </div>
+              <ul class="skills-list">
+                <li>Amharic - Native</li>
+                <li>English - Fluent</li>
+                <li>Arabic - Intermediate</li>
+              </ul>
+            </div>
+
+            <div class="resume-section">
+              <div class="section-header">
+                <i class="fas fa-tools"></i>
+                <h3>Soft Skills</h3>
+              </div>
+              <ul class="skills-list">
+                <li>Communication skills</li>
+                <li>Attention to detail</li>
+                <li>Teamwork</li>
+                <li>Problem Solving skills</li>
+                <li>Adaptability</li>
+              </ul>
+            </div>
+
+            <div class="resume-section">
+              <div class="section-header">
+                <i class="fas fa-code"></i>
+                <h3>Technical Skills</h3>
+              </div>
+              <ul class="skills-list">
+                <li>Knowledge of HTML and CSS</li>
+                <li>Familiarity with CSS preprocessors</li>
+                <li>
+                  Understanding of web and App development frameworks (React,
+                  NextJs,React native)
+                </li>
+                <li>Problem Solving skills</li>
+                <li>Adaptability</li>
+              </ul>
+
+              <!-- Skills Progress Bars -->
+              <div class="skills-progress">
+                <div class="skill-progress">
+                  <div class="skill-info">
+                    <span>HTML/CSS</span>
+                    <span>90%</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress-fill" data-width="90"></div>
+                  </div>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-info">
+                    <span>JavaScript</span>
+                    <span>85%</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress-fill" data-width="85"></div>
+                  </div>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-info">
+                    <span>React</span>
+                    <span>80%</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress-fill" data-width="80"></div>
+                  </div>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-info">
+                    <span>Next.js</span>
+                    <span>75%</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress-fill" data-width="75"></div>
+                  </div>
+                </div>
+                <div class="skill-progress">
+                  <div class="skill-info">
+                    <span>React Native</span>
+                    <span>70%</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress-fill" data-width="70"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="resume-section">
+              <div class="section-header">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+              </div>
+              <a
+                href="https://github.com/HakimcHuu"
+                target="_blank"
+                class="github-link"
+                >https://github.com/HakimcHuu</a
+              >
+            </div>
+            <div class="resume-section">
+              <div class="section-header">
+                <i class="fab fa-linkedin"></i>
+                <h3>LinkedIn</h3>
+              </div>
+              <a
+                href="https://linkedin.com/in/your-linkedin"
+                target="_blank"
+                class="github-link"
+                >https://www.linkedin.com/in/abdulhakim-sefa-846138248</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="about-container">
+          <div class="about-header">
+            <div class="about-badge">
+              <i class="fas fa-user-astronaut"></i>
+              <span>About Me</span>
+            </div>
+            <h2 class="about-title">About</h2>
+            <p class="about-subtitle">Web & Mobile Specialist</p>
+          </div>
+
+          <div class="about-content-wrapper">
+            <div class="about-left-section">
+              <div class="about-image-container">
+                <img
+                  src="assets/misc/juanjo-jaramillo-mZnx9429i94-unsplash.jpg"
+                  alt="About profile"
+                />
+                <div class="image-overlay">
+                  <div class="overlay-content">
+                    <i class="fas fa-code"></i>
+                    <span>Passionate Developer</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tech-expertise">
+                <h3>Technical Expertise</h3>
+                <div class="tech-grid">
+                  <div class="tech-category">
+                    <h4><i class="fas fa-desktop"></i> Frontend</h4>
+                    <div class="tech-items">
+                      <span class="tech-tag">React.js</span>
+                      <span class="tech-tag">Next.js</span>
+                      <span class="tech-tag">HTML5</span>
+                      <span class="tech-tag">CSS3</span>
+                      <span class="tech-tag">JavaScript</span>
+                    </div>
+                  </div>
+
+                  <div class="tech-category">
+                    <h4><i class="fas fa-mobile-alt"></i> Mobile</h4>
+                    <div class="tech-items">
+                      <span class="tech-tag">React Native</span>
+                      <span class="tech-tag">Cross-platform</span>
+                      <span class="tech-tag">Native APIs</span>
+                    </div>
+                  </div>
+
+                  <div class="tech-category">
+                    <h4><i class="fas fa-server"></i> Backend</h4>
+                    <div class="tech-items">
+                      <span class="tech-tag">Node.js</span>
+                      <span class="tech-tag">Express.js</span>
+                      <span class="tech-tag">REST APIs</span>
+                      <span class="tech-tag">Database Design</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-right-section">
+              <div class="about-intro">
+                <div class="intro-highlight">
+                  <i class="fas fa-quote-left"></i>
+                  <p>
+                    "Transforming innovative ideas into powerful digital
+                    experiences that drive business growth and captivate users
+                    worldwide."
+                  </p>
+                </div>
+              </div>
+
+              <div class="about-description">
+                <p>Expert in building robust web and mobile apps from idea to launch.</p>
+                <p>I believe in simple, effective solutions that make a difference.</p>
+              </div>
+
+              <div class="about-highlights">
+                <div class="highlight-item">
+                  <div class="highlight-icon">
+                    <i class="fas fa-lightbulb"></i>
+                  </div>
+                  <div class="highlight-content">
+                    <h4>Innovation First</h4>
+                    <p>
+                      Constantly exploring new technologies and methodologies to
+                      deliver cutting-edge solutions
+                    </p>
+                  </div>
+                </div>
+
+                <div class="highlight-item">
+                  <div class="highlight-icon">
+                    <i class="fas fa-cogs"></i>
+                  </div>
+                  <div class="highlight-content">
+                    <h4>Technical Excellence</h4>
+                    <p>
+                      Maintaining the highest standards of code quality,
+                      performance, and user experience
+                    </p>
+                  </div>
+                </div>
+
+                <div class="highlight-item">
+                  <div class="highlight-icon">
+                    <i class="fas fa-handshake"></i>
+                  </div>
+                  <div class="highlight-content">
+                    <h4>Client Success</h4>
+                    <p>
+                      Dedicated to understanding client needs and delivering
+                      solutions that exceed expectations
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="about-cta">
+                <a
+                  href="assets/documents/Abdulhakim_CV.pdf"
+                  download
+                  class="download-cv-btn"
+                >
+                  <i class="fas fa-download"></i>
+                  <span>Download Resume</span>
+                  <div class="btn-glow"></div>
+                </a>
+                <a href="#contact" class="contact-btn">
+                  <i class="fas fa-envelope"></i>
+                  <span>Get In Touch</span>
+                  <div class="btn-glow"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modern Skills Progress Dashboard -->
+      <section id="skills" class="skills-dashboard">
+        <div class="skills-container">
+          <div class="skills-header">
+            <div class="skills-badge">
+              <i class="fas fa-chart-line"></i>
+              <span>Skills Dashboard</span>
+            </div>
+            <h2 class="skills-title">Skills</h2>
+            <p class="skills-subtitle">Key Technologies & Tools</p>
+          </div>
+
+          <div class="skills-content">
+            <div class="skills-overview">
+              <div class="overview-card">
+                <div class="overview-icon">
+                  <i class="fas fa-code"></i>
+                </div>
+                <div class="overview-content">
+                  <h3>Frontend Mastery</h3>
+                  <p>Modern web technologies and frameworks</p>
+                  <div class="overview-stats">
+                    <span class="stat">95%</span>
+                    <span class="label">Proficiency</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="overview-card">
+                <div class="overview-icon">
+                  <i class="fas fa-mobile-alt"></i>
+                </div>
+                <div class="overview-content">
+                  <h3>Mobile Development</h3>
+                  <p>Cross-platform and native solutions</p>
+                  <div class="overview-stats">
+                    <span class="stat">90%</span>
+                    <span class="label">Proficiency</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="overview-card">
+                <div class="overview-icon">
+                  <i class="fas fa-server"></i>
+                </div>
+                <div class="overview-content">
+                  <h3>Backend Engineering</h3>
+                  <p>Server-side development and APIs</p>
+                  <div class="overview-stats">
+                    <span class="stat">85%</span>
+                    <span class="label">Proficiency</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="skills-detailed">
+              <div class="skill-category">
+                <h3><i class="fas fa-palette"></i> Frontend Technologies</h3>
+                <div class="skill-items">
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">React.js</span>
+                      <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="95"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">Next.js</span>
+                      <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="90"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">JavaScript (ES6+)</span>
+                      <span class="skill-percentage">98%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="98"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">HTML5 & CSS3</span>
+                      <span class="skill-percentage">92%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="92"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-category">
+                <h3><i class="fas fa-mobile"></i> Mobile & Cross-Platform</h3>
+                <div class="skill-items">
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">React Native</span>
+                      <span class="skill-percentage">88%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="88"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">Native APIs</span>
+                      <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="85"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">Mobile UI/UX</span>
+                      <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="90"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skill-category">
+                <h3><i class="fas fa-database"></i> Backend & Database</h3>
+                <div class="skill-items">
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">Node.js</span>
+                      <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="85"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">Express.js</span>
+                      <span class="skill-percentage">82%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="82"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">REST APIs</span>
+                      <span class="skill-percentage">88%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="88"></div>
+                    </div>
+                  </div>
+
+                  <div class="skill-item">
+                    <div class="skill-info">
+                      <span class="skill-name">Database Design</span>
+                      <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-bar">
+                      <div class="skill-progress" data-width="80"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Modern Timeline Section -->
+      <section id="timeline" class="timeline-section">
+        <div class="timeline-container">
+          <div class="timeline-header">
+            <div class="timeline-badge">
+              <i class="fas fa-road"></i>
+              <span>Career Journey</span>
+            </div>
+            <h2 class="timeline-title">
+              My <span class="gradient-text">Path</span>
+            </h2>
+            <p class="timeline-subtitle">
+              Professional growth and achievements timeline
+            </p>
+          </div>
+
+          <div class="timeline-content">
+            <div class="timeline-track">
+              <div class="timeline-item" data-year="Present">
+                <div class="timeline-marker">
+                  <div class="marker-dot"></div>
+                  <div class="marker-line"></div>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-date">Dec 2024 - Jul 2025</div>
+                  <div class="timeline-icon">
+                    <i class="fas fa-rocket"></i>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Full-Stack Development Bootcamp</h3>
+                    <h4>Evangadi Bootcamp</h4>
+                    <p>
+                      Comprehensive training in modern web development
+                      technologies, mastering React.js, Next.js, and full-stack
+                      development methodologies.
+                    </p>
+                    <div class="timeline-tags">
+                      <span class="tag">React.js</span>
+                      <span class="tag">Next.js</span>
+                      <span class="tag">Full-Stack</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-item" data-year="2022">
+                <div class="timeline-marker">
+                  <div class="marker-dot"></div>
+                  <div class="marker-line"></div>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-date">2022–Present</div>
+                  <div class="timeline-icon">
+                    <i class="fas fa-briefcase"></i>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Digital Lab Coordinator</h3>
+                    <h4>Admas University</h4>
+                    <p>
+                      Coordinated digital transformation projects, managed technology labs, and implemented effective digital marketing strategies to enhance educational outcomes.
+                    </p>
+                    <div class="timeline-tags">
+                      <span class="tag">Leadership</span>
+                      <span class="tag">Digital Marketing</span>
+                      <span class="tag">Education</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-item" data-year="2022">
+                <div class="timeline-marker">
+                  <div class="marker-dot"></div>
+                  <div class="marker-line"></div>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-date">2021–Present</div>
+                  <div class="timeline-icon">
+                    <i class="fas fa-chart-line"></i>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Management Science Studies</h3>
+                    <h4>St. Mary University</h4>
+                    <p>
+                      Engaged in advanced coursework in Management Science, developing expertise in quantitative decision-making, operations research, data analysis, and strategic management to solve complex business challenges.
+                    </p>
+                    <div class="timeline-tags">
+                      <span class="tag">Decision Analysis</span>
+                      <span class="tag">Operations Research</span>
+                      <span class="tag">Data Analytics</span>
+                      <span class="tag">Strategy</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-item" data-year="2023">
+                <div class="timeline-marker">
+                  <div class="marker-dot"></div>
+                  <div class="marker-line"></div>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-date">2018-2023</div>
+                  <div class="timeline-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                  </div>
+                  <div class="timeline-content">
+                    <h3>Computer Engineering Degree</h3>
+                    <h4>Haramaya Institute of Technology</h4>
+                    <p>
+                      Completed BSC in Computer Engineering, gaining strong
+                      foundation in computer science principles and engineering
+                      practices.
+                    </p>
+                    <div class="timeline-tags">
+                      <span class="tag">Computer Science</span>
+                      <span class="tag">Engineering</span>
+                      <span class="tag">Technology</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="projects-container">
+          <div class="projects-header">
+            <div class="projects-badge">
+              <i class="fas fa-rocket"></i>
+              <span>Featured Projects</span>
+            </div>
+            <h2 class="projects-title">
+              My <span class="gradient-text">Portfolio</span>
+            </h2>
+            <p class="projects-subtitle">
+              Showcasing innovative solutions and advanced technologies that deliver real-world impact for clients and users.
+            </p>
+          </div>
+
+          <!-- Project Filter Tabs -->
+          <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">
+              <i class="fas fa-th"></i>
+              <span>All Projects</span>
+            </button>
+            <button class="filter-btn" data-filter="web">
+              <i class="fas fa-globe"></i>
+              <span>Web Apps</span>
+            </button>
+            <button class="filter-btn" data-filter="mobile">
+              <i class="fas fa-mobile-alt"></i>
+              <span>Mobile Apps</span>
+            </button>
+            <button class="filter-btn" data-filter="fullstack">
+              <i class="fas fa-server"></i>
+              <span>Full-Stack</span>
+            </button>
+          </div>
+
+          <div class="projects-grid">
+            <!-- Amazon Clone -->
+            <div class="project-card" data-category="web fullstack" data-tilt>
+              <div class="card-image">
+                <img src="assets/logos/31epF-8N9LL.png" alt="Amazon Clone" />
+                <div class="card-overlay">
+                  <div class="overlay-content">
+                    <div class="demo-preview">
+                      <i class="fas fa-eye"></i>
+                      <span>Live Demo</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="project-header">
+                  <div class="project-badge">Featured</div>
+                  <h4>Amazon Clone</h4>
+                </div>
+                <p class="project-subtitle">Full-stack e-commerce platform</p>
+                <div class="card-tech">
+                  <span>React</span>
+                  <span>Node.js</span>
+                  <span>MongoDB</span>
+                  <span>Stripe</span>
+                </div>
+                <div class="project-features">
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>User Authentication</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Payment Integration</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Product Management</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a
+                    href="https://amazon-frontend-clone-com.netlify.app/"
+                    target="_blank"
+                    class="demo-btn"
+                  >
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Live Demo</span>
+                  </a>
+                  <a
+                    href="https://github.com/HakimcHuu/amazon-clone"
+                    target="_blank"
+                    class="mini-btn"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <button
+                    class="mini-btn details-btn"
+                    onclick="openProjectModal('amazon')"
+                  >
+                    <i class="fas fa-info"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Netflix Clone -->
+            <div class="project-card" data-category="web" data-tilt>
+              <div class="card-image">
+                <img src="assets/logos/netflix.jpg" alt="Netflix Clone" />
+                <div class="card-overlay">
+                  <div class="overlay-content">
+                    <div class="demo-preview">
+                      <i class="fas fa-eye"></i>
+                      <span>Live Demo</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="project-header">
+                  <div class="project-badge">Popular</div>
+                  <h4>Netflix Clone</h4>
+                </div>
+                <p class="project-subtitle">
+                  Streaming platform with modern UI
+                </p>
+                <div class="card-tech">
+                  <span>React</span>
+                  <span>CSS3</span>
+                  <span>MovieDB API</span>
+                  <span>Responsive</span>
+                </div>
+                <div class="project-features">
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Movie Browsing</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Search & Filter</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Responsive Design</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a
+                    href="https://luminous-kitsune-f7545e.netlify.app"
+                    target="_blank"
+                    class="demo-btn"
+                  >
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Live Demo</span>
+                  </a>
+                  <a
+                    href="https://github.com/HakimcHuu/netflix-clone"
+                    target="_blank"
+                    class="mini-btn"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <button
+                    class="mini-btn details-btn"
+                    onclick="openProjectModal('netflix')"
+                  >
+                    <i class="fas fa-info"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Evangadi Forum -->
+            <div class="project-card" data-category="fullstack" data-tilt>
+              <div class="card-image">
+                <img src="assets/logos/evangadi.png" alt="Evangadi Forum" />
+                <div class="card-overlay">
+                  <div class="overlay-content">
+                    <div class="demo-preview">
+                      <i class="fas fa-eye"></i>
+                      <span>Live Demo</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="project-header">
+                  <div class="project-badge">Community</div>
+                  <h4>Evangadi Forum</h4>
+                </div>
+                <p class="project-subtitle">Community discussion platform</p>
+                <div class="card-tech">
+                  <span>Next.js</span>
+                  <span>Prisma</span>
+                  <span>PostgreSQL</span>
+                  <span>TypeScript</span>
+                </div>
+                <div class="project-features">
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>User Authentication</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Q&A System</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Real-time Updates</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a
+                    href="https://evangadi-forum-3.vercel.app/"
+                    target="_blank"
+                    class="demo-btn"
+                  >
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Live Demo</span>
+                  </a>
+                  <a
+                    href="https://github.com/HakimcHuu/evangadi-forum"
+                    target="_blank"
+                    class="mini-btn"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <button
+                    class="mini-btn details-btn"
+                    onclick="openProjectModal('evangadi')"
+                  >
+                    <i class="fas fa-info"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Apple Clone -->
+            <div class="project-card" data-category="web" data-tilt>
+              <div class="card-image">
+                <img src="assets/logos/apple.png" alt="Apple Clone" />
+                <div class="card-overlay">
+                  <div class="overlay-content">
+                    <div class="demo-preview">
+                      <i class="fas fa-eye"></i>
+                      <span>Live Demo</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="project-header">
+                  <div class="project-badge">Design</div>
+                  <h4>Apple Clone</h4>
+                </div>
+                <p class="project-subtitle">Modern product showcase website</p>
+                <div class="card-tech">
+                  <span>React</span>
+                  <span>CSS3</span>
+                  <span>Animations</span>
+                  <span>Responsive</span>
+                </div>
+                <div class="project-features">
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Product Showcase</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Smooth Animations</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Modern UI/UX</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a
+                    href="https://apple-clone-three-rosy.vercel.app/"
+                    target="_blank"
+                    class="demo-btn"
+                  >
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Live Demo</span>
+                  </a>
+                  <a
+                    href="https://github.com/HakimcHuu/apple-clone"
+                    target="_blank"
+                    class="mini-btn"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <button
+                    class="mini-btn details-btn"
+                    onclick="openProjectModal('apple')"
+                  >
+                    <i class="fas fa-info"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Evangadi Menu -->
+            <div class="project-card" data-category="web" data-tilt>
+              <div class="card-image">
+                <img src="assets/logos/istockphoto-1267161539-612x612.jpg" alt="Evangadi Menu" />
+                <div class="card-overlay">
+                  <div class="overlay-content">
+                    <div class="demo-preview">
+                      <i class="fas fa-eye"></i>
+                      <span>Live Demo</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="project-header">
+                  <div class="project-badge">Menu</div>
+                  <h4>Evangadi Menu</h4>
+                </div>
+                <p class="project-subtitle">Restaurant menu web app</p>
+                <div class="card-tech">
+                  <span>React</span>
+                  <span>CSS3</span>
+                  <span>Responsive</span>
+                  <span>Vercel</span>
+                </div>
+                <div class="project-features">
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Menu Browsing</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Online Ordering</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Responsive Design</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <a
+                    href="https://evangadi-menu-pi.vercel.app/"
+                    target="_blank"
+                    class="demo-btn"
+                  >
+                    <i class="fas fa-external-link-alt"></i>
+                    <span>Live Demo</span>
+                  </a>
+                  <a
+                    href="https://github.com/yourusername/evangadi-menu"
+                    target="_blank"
+                    class="mini-btn"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <button
+                    class="mini-btn details-btn"
+                    onclick="openProjectModal('evangadiMenu')"
+                  >
+                    <i class="fas fa-info"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Zoom Clone -->
+            <div class="project-card" data-category="web" data-tilt>
+              <div class="card-image">
+                <img src="assets/misc/zoom.jpeg" alt="Zoom Clone" />
+                <div class="card-overlay">
+                  <div class="overlay-content">
+                    <div class="demo-preview">
+                      <i class="fas fa-clock"></i>
+                      <span>Coming Soon</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-content">
+                <div class="project-header">
+                  <div class="project-badge">Video</div>
+                  <h4>Zoom Clone</h4>
+                </div>
+                <p class="project-subtitle">Video conferencing platform</p>
+                <div class="card-tech">
+                  <span>React</span>
+                  <span>WebRTC</span>
+                  <span>Socket.io</span>
+                  <span>Node.js</span>
+                </div>
+                <div class="project-features">
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Video Calls</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Screen Sharing</span>
+                  </div>
+                  <div class="feature-item">
+                    <i class="fas fa-check"></i>
+                    <span>Chat System</span>
+                  </div>
+                </div>
+                <div class="card-actions">
+                  <button class="demo-btn disabled" disabled>
+                    <i class="fas fa-clock"></i>
+                    <span>Coming Soon</span>
+                  </button>
+                  <button
+                    class="mini-btn details-btn"
+                    onclick="openProjectModal('zoom')"
+                  >
+                    <i class="fas fa-info"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services">
+        <h3 class="section-subtitle">My Services</h3>
+        <h2 class="section-title">What Can I Do</h2>
+        <div class="services-grid">
+          <div class="service-card">
+            <div class="icon-container">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+            <h3>Creative Design</h3>
+            <p>
+              Transforming concepts into visually stunning interfaces that
+              captivate users and elevate brand presence through innovative
+              design principles and artistic excellence.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="icon-container">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>Clean Code</h3>
+            <p>
+              Architecting maintainable, scalable, and efficient codebases that
+              follow industry best practices and ensure long-term project
+              sustainability.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="icon-container">
+              <i class="fas fa-desktop"></i>
+            </div>
+            <h3>User Interface</h3>
+            <p>
+              Designing intuitive and engaging user interfaces that prioritize
+              usability, accessibility, and deliver seamless digital experiences
+              across all platforms.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="icon-container">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>User Experience</h3>
+            <p>
+              Creating user-centered experiences through deep understanding of
+              user behaviors, needs, and preferences to deliver interfaces that
+              delight and engage.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="icon-container">
+              <i class="fas fa-headset"></i>
+            </div>
+            <h3>Fast Support</h3>
+            <p>
+              Providing rapid, reliable, and comprehensive support to ensure
+              smooth project delivery and maintain optimal system performance.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="icon-container">
+              <i class="fas fa-flag"></i>
+            </div>
+            <h3>Branding</h3>
+            <p>
+              Developing cohesive brand identities through strategic use of
+              visual elements, typography, and design systems that strengthen
+              brand recognition and trust.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="contact-content">
+          <h2>Let's Create Something Extraordinary Together</h2>
+          <form
+            class="contact-form"
+            action="https://formspree.io/f/xpwrkoep"
+            method="POST"
+            id="contactForm"
+          >
+            <input
+              type="text"
+              name="firstName"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="text"
+              name="lastName"
+              placeholder="Last Name"
+              required
+            />
+            <input type="email" name="email" placeholder="E-Mail" required />
+            <textarea
+              name="message"
+              placeholder="Tell me about your project..."
+              required
+            ></textarea>
+            <button type="submit" class="submit-button">Send Message</button>
+          </form>
+          <div id="form-message" class="form-message"></div>
+        </div>
+
+        <div class="contact-cta">
+          <h2>Ready to Transform Your Vision Into Reality?</h2>
+          <p>
+            Let's collaborate to bring your innovative ideas to life. I'm here
+            to help you build exceptional digital experiences that will set your
+            business apart and drive meaningful results.
+          </p>
+          <a href="#contact" class="contact-button">Start Your Project</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="logo">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="AS Logo">
+              <polygon points="24,6 42,16 42,32 24,42 6,32 6,16" fill="#0A0A0A" stroke="#00d4ff" stroke-width="2"/>
+              <line x1="24" y1="6" x2="24" y2="16" stroke="#00d4ff" stroke-width="1.5"/>
+              <line x1="24" y1="42" x2="24" y2="32" stroke="#00d4ff" stroke-width="1.5"/>
+              <line x1="6" y1="24" x2="16" y2="24" stroke="#00d4ff" stroke-width="1.5"/>
+              <line x1="42" y1="24" x2="32" y2="24" stroke="#00d4ff" stroke-width="1.5"/>
+              <circle cx="24" cy="6" r="1.5" fill="#00d4ff"/>
+              <circle cx="24" cy="42" r="1.5" fill="#00d4ff"/>
+              <circle cx="6" cy="24" r="1.5" fill="#00d4ff"/>
+              <circle cx="42" cy="24" r="1.5" fill="#00d4ff"/>
+              <text class="slow-monogram" x="13" y="30" font-family="'Montserrat', 'Inter', Arial, sans-serif" font-size="13" font-weight="bold" fill="#00d4ff">&lt;AS/&gt;</text>
+            </svg>
+          </div>
+          <p class="footer-description">
+            Visionary Full-Stack Developer crafting exceptional digital
+            experiences with cutting-edge technologies and innovative solutions
+            that drive business success.
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <div class="contact-info-footer">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>abdulhakimsefa@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+251 933 71 80 35</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Addis Ababa, Ethiopia</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-section">
+          <h3>Connect</h3>
+          <div class="social-links">
+            <a
+              href="https://github.com/HakimcHuu"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/abdulhakim-sefa-846138248"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 Abdulhakim S. All rights reserved.</p>
+        <p>Designed & Developed with ❤️</p>
+      </div>
+    </footer>
+
+    <!-- Project Details Modal -->
+    <div id="projectModal" class="project-modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 id="modalTitle">Project Details</h3>
+          <button class="modal-close" onclick="closeProjectModal()">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-image">
+            <img id="modalImage" src="" alt="Project Image" />
+          </div>
+          <div class="modal-info">
+            <div class="modal-badge" id="modalBadge">Featured</div>
+            <h4 id="modalProjectTitle">Project Title</h4>
+            <p id="modalDescription">Project description goes here...</p>
+
+            <div class="modal-tech">
+              <h5>Technologies Used</h5>
+              <div id="modalTechStack" class="tech-stack"></div>
+            </div>
+
+            <div class="modal-features">
+              <h5>Key Features</h5>
+              <ul id="modalFeatures"></ul>
+            </div>
+
+            <div class="modal-challenges">
+              <h5>Challenges & Solutions</h5>
+              <p id="modalChallenges">
+                Challenges and solutions description...
+              </p>
+            </div>
+
+            <div class="modal-links">
+              <a
+                id="modalDemoLink"
+                href="#"
+                target="_blank"
+                class="modal-btn demo-link"
+              >
+                <i class="fas fa-external-link-alt"></i>
+                <span>Live Demo</span>
+              </a>
+              <a
+                id="modalGithubLink"
+                href="#"
+                target="_blank"
+                class="modal-btn github-link"
+              >
+                <i class="fab fa-github"></i>
+                <span>View Code</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Live Demo Modal -->
+    <div id="liveDemoModal" class="live-demo-modal">
+      <div class="demo-content">
+        <div class="demo-header">
+          <h3>Live Demo</h3>
+          <button class="close-demo" onclick="closeLiveDemo()">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <div class="demo-frame-container">
+          <iframe id="demoFrame" src="" frameborder="0"></iframe>
+        </div>
+        <div class="demo-footer">
+          <a id="demoLink" href="" target="_blank" class="btn-primary">
+            <i class="fas fa-external-link-alt"></i>
+            Open in New Tab
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
