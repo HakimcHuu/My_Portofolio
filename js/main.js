@@ -103,7 +103,7 @@ const projectData = {
         ],
         challenges: "The biggest challenge was implementing a robust payment system that handles multiple payment methods securely. I solved this by integrating Stripe's API with proper error handling and implementing a comprehensive order management system that tracks payment status and order fulfillment.",
         demoLink: "https://amazon-frontend-clone-com.netlify.app/",
-        githubLink: "https://github.com/HakimcHuu/amazon-clone"
+        githubLink: "https://github.com/HakimcHuu/amazone_clone"
     },
     netflix: {
         title: "Netflix Clone",
@@ -141,7 +141,7 @@ const projectData = {
         ],
         challenges: "Implementing real-time features while maintaining good performance was challenging. I used Next.js API routes with Prisma for database operations and implemented efficient caching strategies to ensure fast response times and smooth user experience.",
         demoLink: "https://evangadi-forum-3.vercel.app/",
-        githubLink: "https://github.com/HakimcHuu/evangadi-forum"
+        githubLink: "https://github.com/HakimcHuu/Evangadi-Forum-3"
     },
     apple: {
         title: "Apple Clone",
@@ -160,7 +160,7 @@ const projectData = {
         ],
         challenges: "Recreating Apple's signature smooth animations and premium feel was the biggest challenge. I implemented CSS animations, transforms, and carefully crafted transitions to achieve the fluid, high-quality user experience that Apple is known for.",
         demoLink: "https://apple-clone-three-rosy.vercel.app/",
-        githubLink: "https://github.com/HakimcHuu/apple-clone"
+        githubLink: "https://github.com/HakimcHuu/Apple_clone"
     },
     evangadiMenu: {
         title: "Evangadi Menu",
@@ -177,7 +177,7 @@ const projectData = {
         ],
         challenges: "Ensuring a smooth and responsive user experience across all devices was a key challenge. I optimized the UI for mobile and desktop, and implemented efficient state management for fast menu browsing and ordering.",
         demoLink: "https://evangadi-menu-pi.vercel.app/",
-        githubLink: "https://github.com/yourusername/evangadi-menu" // Replace with actual repo if available
+        githubLink: "https://github.com/HakimcHuu/EvangadiMenu"
     },
     zoom: {
         title: "Zoom Clone",
